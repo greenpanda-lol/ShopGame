@@ -1,5 +1,5 @@
 # alap változók
-
+#mükszik
 dollar = 0
 day = 1
 level = 1
