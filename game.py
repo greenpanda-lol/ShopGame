@@ -34,7 +34,8 @@ def menu():
 # új nap kezdése
 def newDay():
     print("Új nap virradt.. éjszaka:")
-    #events.eventHappen()
+    events.eventChoice()
+    events.eventEffect()
     #ezt majd ha működik az a eventEffect
     print("tesztszövegtesztszövegtesztszöveg próba egy kettő három be van ez kapcsolva?")
     day += 1
