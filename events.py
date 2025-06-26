@@ -36,8 +36,8 @@ def eventChoice():
 # választ egy eventet
 
 def eventEffect():
-    game.dollar += event["moneyeffect"]
-    print(f'{event["text"]}')
+    game.dollar += eventChoice.event["moneyeffect"]
+    print(f'{eventChoice.event["text"]}')
 # végrehajtja az event hatását
 # nem műkszik :(
 
