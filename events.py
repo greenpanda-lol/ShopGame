@@ -13,7 +13,7 @@ events = {
  "kisrablas": {
      "id": "kr",
      "moneyeffect": -200,
-     "text": "Az éjjel kirabolták a boltodat! 500 Dollárt vittek el."
+     "text": "Az éjjel kirabolták a boltodat! 200 Dollárt vittek el."
  },
 
  "palyazat": {
