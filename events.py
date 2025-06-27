@@ -21,11 +21,19 @@ events = {
      "moneyeffect": 500,
      "text": "A boltod megnyert egy pályázatot! A pénzdíj 500 Dollár, és kaptatok egy menő oklevelet"
  },
+
  "adomanyok": {
-    "id": "p",
+    "id": "ad",
     "moneyeffect": 200,
     "text": "A boltod kisebb, nagyobb adományokból egészen sok pénzt gyűjtött össze!"
- }
+ },
+
+ "adocsalas": {
+    "id": "acs",
+    "moneyeffect": -1000
+    "text": "Lebuktál, hogy adócsaló vagy. Az állam megbüntetett -$1000 dollárra."
+
+ },
 
 }
 
