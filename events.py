@@ -30,7 +30,7 @@ events = {
 
  "adocsalas": {
     "id": "acs",
-    "moneyeffect": -1000
+    "moneyeffect": -1000,
     "text": "Lebuktál, hogy adócsaló vagy. Az állam megbüntetett -$1000 dollárra."
 
  },
