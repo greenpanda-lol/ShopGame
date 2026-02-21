@@ -1,5 +1,5 @@
 import random
-import game
+# kiszedtem a game importálását, mert nem kell
 
 # összes esemény
 
@@ -39,18 +39,17 @@ events = {
 
 
 def eventChoice():
-    event = random.choice(list(events.items()))
+    event = random.choice(list(events.values())) # itt is volt vmi hiba idk
     return event
 # választ egy eventet
 
-def eventEffect():
+# def eventEffect():
     game.dollar += eventChoice.event["moneyeffect"]
     print(f'{eventChoice.event["text"]}')
 # végrehajtja az event hatását
-# nem műkszik :(
+# nem műkszik :( 
 
-def eventHappen():
-    eventChoice()
-    eventEffect()
-
-
+def eventHappen(dollar):
+    event = eventChoice()
+    print(event["text"])
+    return dollar + event["moneyeffect"]

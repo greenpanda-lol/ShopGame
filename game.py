@@ -33,10 +33,11 @@ def menu():
         menu()
 # új nap kezdése
 def newDay():
+    global day, dollar
     print("Új nap virradt.. éjszaka:")
-    events.eventHappen()
-    #ezt majd ha működik az a eventEffect
-    print("tesztszövegtesztszövegtesztszöveg próba egy kettő három be van ez kapcsolva?")
+
+    dollars = events.eventHappen(dollar) # ez a fontos, így nem kell, h ott is be legyen importálva
+
     day += 1
     print(f'A mai nap a {day}. nap.')
     dollar += 100
