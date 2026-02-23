@@ -1,4 +1,5 @@
 import events
+import random
 Game = True
 # alap változók
 dollar = 0
@@ -40,8 +41,8 @@ def newDay():
 
     day += 1
     print(f'A mai nap a {day}. nap.')
-    dollar += 100
-    print(f'Az előző napi bevételed: 100 Dollár (100 Dollár hozzáadva a kasszához')
+    if level == 1: dollar += (bevetel := random.randint(100,200)) # levelenként eltérő fizu
+    print(f'Az előző napi bevételed: {bevetel} ({bevetel} Dollár hozzáadva a kasszához)')
 
 def game():
     menu()
