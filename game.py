@@ -37,7 +37,7 @@ def newDay():
     global day, dollar
     print("Új nap virradt.. éjszaka:")
 
-    dollar = events.eventHappen(dollar) # ez a fontos, így nem kell, h ott is be legyen importálva
+    dollar = events.eventHappen(dollar, level) # ez a fontos, így nem kell, h ott is be legyen importálva
 
     day += 1
     print(f'A mai nap a {day}. nap.')
